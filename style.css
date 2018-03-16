@@ -1,0 +1,23 @@
+p { 
+    color: magenta; 
+    background-color: yellow;
+}
+a {
+    color: #457362;
+    background-color: rgb(255, 153, 0);
+}
+#digitalcrafts{
+    color: #778866;
+    background-color: #264726;
+}
+
+a:visited{
+    color: #579357;
+    background-color: #112233;
+}
+
+/* this is to change color for the links*/
+a:hover{
+    color: #224411;
+    background-color: #884466;
+}
