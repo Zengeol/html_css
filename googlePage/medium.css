@@ -9,9 +9,14 @@ h1 {
 }
 
 .content {
-  outline: 2px solid cyan;
-  margin: auto;
+  /* outline: 2px solid cyan; */
+  margin: top;
   width: 600px;
+  position: relative;
+  padding-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .profile-img {
@@ -19,7 +24,7 @@ h1 {
 }
 
 .big-image {
-  /*width: 100%;*/
+  width: 80%;
   margin: auto;
   display: block;
 }
@@ -33,25 +38,31 @@ h1 {
 }
 
 .nav {
-  width: 1000px;
-  margin: auto;
-  outline: 2px solid hotpink;
+  width: 100%;
+  /* margin: auto; */
+  /* outline: 2px solid hotpink; */
   position: fixed;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .follow {
-  display: inline-block;
+  display: block;
   margin-top: 7px;
-  vertical-align: top;
+  margin-right: 200px;
   border: 1px solid #80C1A2;
   border-radius: 15px;
   font-family: sans-serif;
   padding: 2px 10px 2px 10px;
   color: #80C1A2;
+  float: right;
 }
 
 .twitter {
   margin-top: 7px;
   vertical-align: top;
   margin-left: 9px;
+  float: right;
+  padding: 0 10px 0 10px;
 }
