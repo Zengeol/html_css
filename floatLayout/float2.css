@@ -1,0 +1,29 @@
+header {
+    background-color: blue;
+}
+footer {
+    background-color: grey;
+}
+.col1 {
+    background-color: purple;
+    width: 300px;
+}
+.col2 {
+    background-color: pink;
+    width: calc(100% - 300px);
+}
+/* .col3 {
+    background-color: orange;
+} */
+.col {
+    float: left;
+}
+/* .clearfix {
+    overflow: auto;
+    zoom:1;
+} */
+.clearfix:after {
+    content:"";
+    display:table;
+    clear:both;
+}
