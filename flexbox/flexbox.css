@@ -4,7 +4,7 @@ header {
 footer {
     background-color: grey;
 }
-.col1 {
+/* .col1 {
     background-color: purple;
     width: 300px;
 }
@@ -17,6 +17,7 @@ footer {
 } */
 .col {
     float: left;
+
 }
 /* .clearfix {
     overflow: auto;
@@ -26,4 +27,4 @@ footer {
     content:"";
     display:table;
     clear:both;
-}
+} */

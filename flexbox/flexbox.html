@@ -6,24 +6,30 @@
         <meta charset="utf-8">
         <title>flexbox Layout</title>
         <link href="flexbox.css" rel="stylesheet">
+        <style>
+            .wrapper {
+                display:flex;
+            }
+            .wrapper > div {
+                width: 200px;
+                height: 200px;
+                background-color: blue;
+            }
+        </style>
     </head>
+    
     <body>
         <header class="header">
             HEADER
         </header>
-        <div class="clearfix"></div>
-        <div>
-            <div class="col col1">
-                col1
+        <div class="wrapper"></div>
+            <div>
+                box 1
             </div>
-            <div class="col col2">
-                col2
+            <div>
+                box 2
             </div>
-            <!-- <div class="col col3">
-                col3
-            </div> -->
-        </div>
-        <div class = "clearfix"></div>
+        <!-- <div class = "clearfix"></div> -->
         <footer>
             Copyright &copy; Claudia Ling
         </footer>
